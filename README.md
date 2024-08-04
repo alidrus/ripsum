@@ -27,4 +27,4 @@ The resulting executable will be located in the `build` folder.
 ./build/ripsum <n>
 ```
 
-where `n` is the number of words in the output text.
+where `<n>` is the number of words in the output text (default is 5).
