@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "name": "lipsum",
+    "version": "1.0.0",
+    "main": "ripsum.js",
+    "scripts": {
+        "start": "node ripsum.js",
+        "compile": "pkg ripsum.js --targets node16-linux-x64 --output build/ripsum"
+    },
+    "dependencies": {
+        "clipboardy": "^2.3.0",
+        "pkg": "^5.8.1"
+    }
+}
