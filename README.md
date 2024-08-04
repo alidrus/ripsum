@@ -1,6 +1,8 @@
 # ripsum
 Random word generator based on the Lorem Ipsum text.
 
+> Who cares if it doesn't make sense? It's all latin to me anyway.
+
 
 ## Build Instructions
 
