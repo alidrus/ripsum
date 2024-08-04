@@ -51,3 +51,5 @@ const numWords = (argv.length >= 3 && argv[2].match(/^[0-9]+$/g)) ? argv[2]:5;
 const generatedText = randomWords(words, numWords).join(' ');
 
 clipboardy.writeSync(generatedText);
+
+console.log(generatedText + ' (copied to clipboard)');
